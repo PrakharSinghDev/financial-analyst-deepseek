@@ -1,6 +1,12 @@
 # MCP-powered Financial Analyst using CrewAI and Deepseek-R1
 
-This project implements a financial analysis agentic workflow that analyzes stock market data and provides insights.
+This project implements a financial analysis agent powered by CrewAI and the Deepseek‑R1 model. It allows you to interactively query and analyze stock market data, with results displayed directly inside Cursor IDE.
+
+Features:
+- Multi‑agent orchestration via CrewAI
+- Local LLM inference with Ollama and Deepseek‑R1
+- MCP integration in Cursor IDE for conversational analysis
+- Data fetching and visualization using yfinance, pandas, and matplotlib
 
 We use:
 - CrewAI for multi-agent orchestration.
@@ -70,14 +76,7 @@ You can now chat with Cursor and analyze stock market data. Simply provide the s
 - "Show me Tesla's stock performance over the last 3 months"
 - "Compare Apple and Microsoft stocks for the past year"
 - "Analyze the trading volume of Amazon stock for the last month"
-
----
-
-## 📬 Stay Updated with Our Newsletter!
-**Get a FREE Data Science eBook** 📖 with 150+ essential lessons in Data Science when you subscribe to our newsletter! Stay in the loop with the latest tutorials, insights, and exclusive resources. [Subscribe now!](https://join.dailydoseofds.com)
-
-[![Daily Dose of Data Science Newsletter](https://github.com/patchy631/ai-engineering/blob/main/resources/join_ddods.png)](https://join.dailydoseofds.com)
-
+The agent will fetch data, run analysis, and render tables or charts inline.
 ---
 
 ## Contribution
